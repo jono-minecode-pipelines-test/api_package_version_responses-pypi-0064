@@ -1,0 +1,131 @@
+{
+    "info": {
+        "author": "F. Eugene Aumson",
+        "author_email": "feuGeneA@users.noreply.github.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 5 - Production/Stable",
+            "Intended Audience :: Developers",
+            "Intended Audience :: Financial and Insurance Industry",
+            "License :: OSI Approved :: Apache Software License",
+            "Natural Language :: English",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python",
+            "Programming Language :: Python :: 3 :: Only",
+            "Programming Language :: Python :: 3.6",
+            "Programming Language :: Python :: 3.7",
+            "Topic :: Internet :: WWW/HTTP",
+            "Topic :: Office/Business :: Financial",
+            "Topic :: Other/Nonlisted Topic",
+            "Topic :: Security :: Cryptography",
+            "Topic :: Software Development :: Libraries",
+            "Topic :: Utilities"
+        ],
+        "description": "## 0x-contract-artifacts\n\n0x smart contract compilation artifacts\n\nRead the [documentation](http://0x-contract-artifacts-py.s3-website-us-east-1.amazonaws.com/)\n\n## Installing\n\n```bash\npip install 0x-contract-artifacts\n```\n\n## Contributing\n\nWe welcome improvements and fixes from the wider community! To report bugs within this package, please create an issue in this repository.\n\nPlease read our [contribution guidelines](../../CONTRIBUTING.md) before getting started.\n\n### Pull in artifacts from TypeScript build environment\n\n```bash\n./setup.py pre_install\n```\n\n### Install Code and Dependencies\n\n```bash\npip install -e .[dev]\n```\n\n### Clean\n\n`./setup.py clean --all`\n\n### Lint\n\n`./setup.py lint`\n\n### Build Documentation\n\n`./setup.py build_sphinx`\n\n### More\n\nSee `./setup.py --help-commands` for more info.\n\n\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "dynamic": null,
+        "home_page": "https://github.com/0xproject/0x-monorepo/tree/development/python-packages/contract_artifacts",
+        "keywords": "ethereum cryptocurrency 0x decentralized blockchain dex exchange",
+        "license": "Apache 2.0",
+        "license_expression": null,
+        "license_files": null,
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "0x-contract-artifacts",
+        "package_url": "https://pypi.org/project/0x-contract-artifacts/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/0x-contract-artifacts/",
+        "project_urls": {
+            "Homepage": "https://github.com/0xproject/0x-monorepo/tree/development/python-packages/contract_artifacts"
+        },
+        "provides_extra": null,
+        "release_url": "https://pypi.org/project/0x-contract-artifacts/3.0.0.dev2/",
+        "requires_dist": [
+            "mypy-extensions",
+            "bandit ; extra == 'dev'",
+            "black ; extra == 'dev'",
+            "coverage ; extra == 'dev'",
+            "coveralls ; extra == 'dev'",
+            "mypy ; extra == 'dev'",
+            "mypy-extensions ; extra == 'dev'",
+            "pycodestyle ; extra == 'dev'",
+            "pydocstyle ; extra == 'dev'",
+            "pylint ; extra == 'dev'",
+            "pytest ; extra == 'dev'",
+            "sphinx ; extra == 'dev'",
+            "tox ; extra == 'dev'",
+            "twine ; extra == 'dev'"
+        ],
+        "requires_python": ">=3.6, <4",
+        "summary": "0x smart contract compilation artifacts",
+        "version": "3.0.0.dev2",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 6238017,
+    "ownership": {
+        "organization": null,
+        "roles": [
+            {
+                "role": "Owner",
+                "user": "PirosB3"
+            },
+            {
+                "role": "Owner",
+                "user": "feuGeneA"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "2219a40ad15f77c6047890efe02c436b23a0be282cf2ff13db662a32834aac25",
+                "md5": "e7e13e6d82f898735591f297e46e6161",
+                "sha256": "a60687dccfa69556036fdbcf437401e3a35c5b12d508924d357dd7a745871ea9"
+            },
+            "downloads": -1,
+            "filename": "0x_contract_artifacts-3.0.0.dev2-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "e7e13e6d82f898735591f297e46e6161",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.6, <4",
+            "size": 134965,
+            "upload_time": "2019-10-29T15:36:01",
+            "upload_time_iso_8601": "2019-10-29T15:36:01.090105Z",
+            "url": "https://files.pythonhosted.org/packages/22/19/a40ad15f77c6047890efe02c436b23a0be282cf2ff13db662a32834aac25/0x_contract_artifacts-3.0.0.dev2-py3-none-any.whl",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "dde4fc0fa662cd69ec4e72f20b84be5488b7450122a5a4a660b3be6d76fa9548",
+                "md5": "a7986b2f2104653e30b6f669dcde551a",
+                "sha256": "32f204b1901dbeab8568afbf56ffce6a071a6100f17d1fa1fa2b4009a5f145b6"
+            },
+            "downloads": -1,
+            "filename": "0x-contract-artifacts-3.0.0.dev2.tar.gz",
+            "has_sig": false,
+            "md5_digest": "a7986b2f2104653e30b6f669dcde551a",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.6, <4",
+            "size": 116182,
+            "upload_time": "2019-10-29T15:36:03",
+            "upload_time_iso_8601": "2019-10-29T15:36:03.569348Z",
+            "url": "https://files.pythonhosted.org/packages/dd/e4/fc0fa662cd69ec4e72f20b84be5488b7450122a5a4a660b3be6d76fa9548/0x-contract-artifacts-3.0.0.dev2.tar.gz",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}
