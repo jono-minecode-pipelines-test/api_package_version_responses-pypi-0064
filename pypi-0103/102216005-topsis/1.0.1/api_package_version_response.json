@@ -1,0 +1,91 @@
+{
+    "info": {
+        "author": "Reetinder Singh",
+        "author_email": "your.email@example.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "License :: OSI Approved :: MIT License",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3"
+        ],
+        "description": "### **README**\r\n\r\n# **TOPSIS Analysis in Jupyter Notebook**\r\n\r\nThis README provides step-by-step instructions on how to use the TOPSIS package in a Jupyter Notebook.\r\n\r\n---\r\n\r\n## **Installation**\r\n\r\nBefore running the TOPSIS function, ensure the package is installed. You can either install it from PyPI or locally:\r\n\r\n### From PyPI:\r\n```bash\r\n!pip install Topsis_102216005\r\n```\r\n\r\n### Locally:\r\nIf the package is not uploaded to PyPI, navigate to the folder containing the `setup.py` file and run:\r\n```bash\r\n!pip install .\r\n```\r\n\r\n---\r\n\r\n## **Usage**\r\n\r\n### **Step 1: Import the Package**\r\nUse the following code to import the `topsis` function:\r\n```python\r\nfrom Topsis_102216005 import topsis\r\n```\r\n\r\n\r\n---\r\n\r\n### **Step 2: Prepare Input Data**\r\nEnsure you have a CSV file (e.g., `data.csv`) with the following structure:\r\n1. **First column:** Object/variable names (e.g., M1, M2, M3).\r\n2. **Second to last columns:** Numeric data for evaluation.\r\n\r\nExample CSV (`data.csv`):\r\n| Object | Criterion 1 | Criterion 2 | Criterion 3 | Criterion 4 |\r\n|--------|-------------|-------------|-------------|-------------|\r\n| M1     | 250         | 16          | 12          | 5           |\r\n| M2     | 200         | 12          | 15          | 8           |\r\n| M3     | 300         | 18          | 10          | 6           |\r\n| M4     | 275         | 20          | 14          | 7           |\r\n\r\n---\r\n\r\n### **Step 3: Define Inputs**\r\nSpecify the following parameters:\r\n- `input_file`: Path to the CSV file (e.g., `data.csv`).\r\n- `weights`: Comma-separated weights for the criteria (e.g., `1,1,1,2`).\r\n- `impacts`: Comma-separated impacts (`+` for beneficial, `-` for non-beneficial, e.g., `+,+,-,+`).\r\n- `output_file`: Name of the output file to save the results (e.g., `result.csv`).\r\n\r\n---\r\n\r\n### **Step 4: Run the TOPSIS Function**\r\nUse the following code to run the TOPSIS analysis:\r\n```python\r\n# Import the necessary function\r\nfrom Topsis_102216005 import topsis\r\n\r\n# Define inputs\r\ninput_file = \"data.csv\"\r\nweights = \"1,1,1,2\"\r\nimpacts = \"+,+,-,+\"\r\noutput_file = \"result.csv\"\r\n\r\n# Run TOPSIS\r\ntopsis(input_file, weights, impacts, output_file)\r\n\r\n# Display the output file (optional)\r\nimport pandas as pd\r\nresult = pd.read_csv(output_file)\r\nprint(result)\r\n```\r\n\r\n---\r\n\r\n### **Step 5: Output**\r\nThe output CSV file (`result.csv`) will include all original columns, along with two additional columns:\r\n1. **Topsis Score:** The computed TOPSIS score for each object.\r\n2. **Rank:** The rank of each object based on the TOPSIS score (higher score = better rank).\r\n\r\nExample Output (`result.csv`):\r\n| Object | Criterion 1 | Criterion 2 | Criterion 3 | Criterion 4 | Topsis Score | Rank |\r\n|--------|-------------|-------------|-------------|-------------|--------------|------|\r\n| M1     | 250         | 16          | 12          | 5           | 0.85         | 1    |\r\n| M2     | 200         | 12          | 15          | 8           | 0.65         | 3    |\r\n| M3     | 300         | 18          | 10          | 6           | 0.70         | 2    |\r\n| M4     | 275         | 20          | 14          | 7           | 0.60         | 4    |\r\n\r\n---\r\n\r\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": null,
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "dynamic": [
+            "Author",
+            "Author-Email",
+            "Classifier",
+            "Description",
+            "Description-Content-Type",
+            "Home-Page",
+            "Requires-Dist",
+            "Requires-Python",
+            "Summary"
+        ],
+        "home_page": "https://github.com/Reetinder932/topsis",
+        "keywords": null,
+        "license": null,
+        "license_expression": null,
+        "license_files": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "name": "102216005-Topsis",
+        "package_url": "https://pypi.org/project/102216005-Topsis/",
+        "platform": null,
+        "project_url": "https://pypi.org/project/102216005-Topsis/",
+        "project_urls": {
+            "Homepage": "https://github.com/Reetinder932/topsis"
+        },
+        "provides_extra": null,
+        "release_url": "https://pypi.org/project/102216005-Topsis/1.0.1/",
+        "requires_dist": [
+            "numpy",
+            "pandas"
+        ],
+        "requires_python": ">=3.6",
+        "summary": "A Python implementation of the TOPSIS decision-making method",
+        "version": "1.0.1",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 27026006,
+    "ownership": {
+        "organization": null,
+        "roles": [
+            {
+                "role": "Owner",
+                "user": "Reetinder06"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "69c4c3cdf839aadf2b069bf6ff3d99f2e2e14bbac1fb29f9f5cfd6ece8d9fc15",
+                "md5": "84a3d26336559323381e6d8d7de2e584",
+                "sha256": "05b5e8cb1b7ad9c5a5facb1896b97a1fd530af1bb2d438f22711102197fc2d09"
+            },
+            "downloads": -1,
+            "filename": "102216005_Topsis-1.0.1-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "84a3d26336559323381e6d8d7de2e584",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.6",
+            "size": 4408,
+            "upload_time": "2025-01-19T17:36:52",
+            "upload_time_iso_8601": "2025-01-19T17:36:52.560782Z",
+            "url": "https://files.pythonhosted.org/packages/69/c4/c3cdf839aadf2b069bf6ff3d99f2e2e14bbac1fb29f9f5cfd6ece8d9fc15/102216005_Topsis-1.0.1-py3-none-any.whl",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}
