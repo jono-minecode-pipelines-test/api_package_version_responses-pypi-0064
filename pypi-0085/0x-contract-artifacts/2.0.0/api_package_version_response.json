@@ -1,0 +1,131 @@
+{
+    "info": {
+        "author": "F. Eugene Aumson",
+        "author_email": "feuGeneA@users.noreply.github.com",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 5 - Production/Stable",
+            "Intended Audience :: Developers",
+            "Intended Audience :: Financial and Insurance Industry",
+            "License :: OSI Approved :: Apache Software License",
+            "Natural Language :: English",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python",
+            "Programming Language :: Python :: 3 :: Only",
+            "Programming Language :: Python :: 3.6",
+            "Programming Language :: Python :: 3.7",
+            "Topic :: Internet :: WWW/HTTP",
+            "Topic :: Office/Business :: Financial",
+            "Topic :: Other/Nonlisted Topic",
+            "Topic :: Security :: Cryptography",
+            "Topic :: Software Development :: Libraries",
+            "Topic :: Utilities"
+        ],
+        "description": "## 0x-contract-artifacts\n\n0x smart contract compilation artifacts\n\nRead the [documentation](http://0x-contract-artifacts-py.s3-website-us-east-1.amazonaws.com/)\n\n## Installing\n\n```bash\npip install 0x-contract-artifacts\n```\n\n## Contributing\n\nWe welcome improvements and fixes from the wider community! To report bugs within this package, please create an issue in this repository.\n\nPlease read our [contribution guidelines](../../CONTRIBUTING.md) before getting started.\n\n### Install Code and Dependencies\n\n```bash\npip install -e .[dev]\n```\n\n### Clean\n\n`./setup.py clean --all`\n\n### Lint\n\n`./setup.py lint`\n\n### Build Documentation\n\n`./setup.py build_sphinx`\n\n### More\n\nSee `./setup.py --help-commands` for more info.\n\n\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "dynamic": null,
+        "home_page": "https://github.com/0xproject/0x-monorepo/tree/development/python-packages/contract_artifacts",
+        "keywords": "ethereum cryptocurrency 0x decentralized blockchain dex exchange",
+        "license": "Apache 2.0",
+        "license_expression": null,
+        "license_files": null,
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "0x-contract-artifacts",
+        "package_url": "https://pypi.org/project/0x-contract-artifacts/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/0x-contract-artifacts/",
+        "project_urls": {
+            "Homepage": "https://github.com/0xproject/0x-monorepo/tree/development/python-packages/contract_artifacts"
+        },
+        "provides_extra": null,
+        "release_url": "https://pypi.org/project/0x-contract-artifacts/2.0.0/",
+        "requires_dist": [
+            "mypy-extensions",
+            "bandit; extra == 'dev'",
+            "black; extra == 'dev'",
+            "coverage; extra == 'dev'",
+            "coveralls; extra == 'dev'",
+            "mypy; extra == 'dev'",
+            "mypy-extensions; extra == 'dev'",
+            "pycodestyle; extra == 'dev'",
+            "pydocstyle; extra == 'dev'",
+            "pylint; extra == 'dev'",
+            "pytest; extra == 'dev'",
+            "sphinx; extra == 'dev'",
+            "tox; extra == 'dev'",
+            "twine; extra == 'dev'"
+        ],
+        "requires_python": ">=3.6, <4",
+        "summary": "0x smart contract compilation artifacts",
+        "version": "2.0.0",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 6238017,
+    "ownership": {
+        "organization": null,
+        "roles": [
+            {
+                "role": "Owner",
+                "user": "PirosB3"
+            },
+            {
+                "role": "Owner",
+                "user": "feuGeneA"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "4bab1df6cee9478914fc9119e9f7fe0463d4a57e63149aa70c496cce48457c07",
+                "md5": "400a7cf92f5fc451f8155d50b0d1efce",
+                "sha256": "44146561e762958fcae64b0202da3416b78a3780f0265a4b57f7e3b6af26b120"
+            },
+            "downloads": -1,
+            "filename": "0x_contract_artifacts-2.0.0-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "400a7cf92f5fc451f8155d50b0d1efce",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.6, <4",
+            "size": 65442,
+            "upload_time": "2019-01-09T16:06:41",
+            "upload_time_iso_8601": "2019-01-09T16:06:41.473938Z",
+            "url": "https://files.pythonhosted.org/packages/4b/ab/1df6cee9478914fc9119e9f7fe0463d4a57e63149aa70c496cce48457c07/0x_contract_artifacts-2.0.0-py3-none-any.whl",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "56792f81c26461433b3036cd34d396325c38ade3a9aa64e6636540b67bc084d4",
+                "md5": "3efbd3ee113506f1dc5242df9e901bd4",
+                "sha256": "7c1a0b4204cf08f46efad2b1a19d19e2d6189e1bea9e220e41caa0f145159316"
+            },
+            "downloads": -1,
+            "filename": "0x-contract-artifacts-2.0.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "3efbd3ee113506f1dc5242df9e901bd4",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.6, <4",
+            "size": 55219,
+            "upload_time": "2019-01-09T16:06:43",
+            "upload_time_iso_8601": "2019-01-09T16:06:43.811630Z",
+            "url": "https://files.pythonhosted.org/packages/56/79/2f81c26461433b3036cd34d396325c38ade3a9aa64e6636540b67bc084d4/0x-contract-artifacts-2.0.0.tar.gz",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}

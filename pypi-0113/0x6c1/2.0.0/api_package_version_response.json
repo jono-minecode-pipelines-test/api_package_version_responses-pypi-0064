@@ -1,0 +1,121 @@
+{
+    "info": {
+        "author": "celestine1729",
+        "author_email": "celestine1729@proton.me",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 5 - Production/Stable",
+            "Intended Audience :: Developers",
+            "Intended Audience :: Education",
+            "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3",
+            "Programming Language :: Python :: 3.10",
+            "Programming Language :: Python :: 3.7",
+            "Programming Language :: Python :: 3.8",
+            "Programming Language :: Python :: 3.9",
+            "Topic :: Software Development :: Libraries :: Python Modules",
+            "Topic :: Utilities"
+        ],
+        "description": "# 0x6C1 - Hex Translator\n\nA comprehensive command-line tool and Python library for converting between hexadecimal representations and their corresponding text or numeric values with file support.\n\n## Installation\n\n```bash\npip install 0x6C1\n```\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": null,
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "dynamic": [
+            "Author",
+            "Author-Email",
+            "Classifier",
+            "Description",
+            "Description-Content-Type",
+            "Home-Page",
+            "Keywords",
+            "License-File",
+            "Requires-Python",
+            "Summary"
+        ],
+        "home_page": "https://github.com/celestine1729/0x6C1",
+        "keywords": "hex, converter, translator, text, number, file",
+        "license": null,
+        "license_expression": null,
+        "license_files": [
+            "LICENSE"
+        ],
+        "maintainer": null,
+        "maintainer_email": null,
+        "name": "0x6C1",
+        "package_url": "https://pypi.org/project/0x6C1/",
+        "platform": null,
+        "project_url": "https://pypi.org/project/0x6C1/",
+        "project_urls": {
+            "Homepage": "https://github.com/celestine1729/0x6C1"
+        },
+        "provides_extra": null,
+        "release_url": "https://pypi.org/project/0x6C1/2.0.0/",
+        "requires_dist": null,
+        "requires_python": ">=3.7",
+        "summary": "A comprehensive tool for converting between hexadecimal representations and their corresponding text or numeric values",
+        "version": "2.0.0",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 31203351,
+    "ownership": {
+        "organization": null,
+        "roles": [
+            {
+                "role": "Owner",
+                "user": "celestine1729"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": null,
+            "digests": {
+                "blake2b_256": "c9b4c4d3d9318a466f2aed4e744a0c2b1d34e875dec6de19206aa051e9807c31",
+                "md5": "bb1b4122885040886f88439b9165192f",
+                "sha256": "525678edbfabc82bf955ec6fa83b1d025912ced2834934f57627fe77abeddccd"
+            },
+            "downloads": -1,
+            "filename": "0x6c1-2.0.0-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "bb1b4122885040886f88439b9165192f",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.7",
+            "size": 17348,
+            "upload_time": "2025-09-11T19:45:31",
+            "upload_time_iso_8601": "2025-09-11T19:45:31.005015Z",
+            "url": "https://files.pythonhosted.org/packages/c9/b4/c4d3d9318a466f2aed4e744a0c2b1d34e875dec6de19206aa051e9807c31/0x6c1-2.0.0-py3-none-any.whl",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        {
+            "comment_text": null,
+            "digests": {
+                "blake2b_256": "ef4632c46eb53ab5ee887db5938491361eda9bc6d9dc40d705fa9f6f73c38f90",
+                "md5": "d4acda38f767626e900270675bece3bf",
+                "sha256": "22f3bf80f64b36b9615de5a6de720c170f39319ce913842e99b6ed614b7df7ea"
+            },
+            "downloads": -1,
+            "filename": "0x6c1-2.0.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "d4acda38f767626e900270675bece3bf",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.7",
+            "size": 17598,
+            "upload_time": "2025-09-11T19:45:33",
+            "upload_time_iso_8601": "2025-09-11T19:45:33.082886Z",
+            "url": "https://files.pythonhosted.org/packages/ef/46/32c46eb53ab5ee887db5938491361eda9bc6d9dc40d705fa9f6f73c38f90/0x6c1-2.0.0.tar.gz",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}

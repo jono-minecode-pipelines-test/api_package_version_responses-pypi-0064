@@ -1,0 +1,74 @@
+{
+    "info": {
+        "author": "Mindey",
+        "author_email": "mindey@qq.com",
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "dynamic": null,
+        "home_page": "https://github.com/mindey/0rss",
+        "keywords": "",
+        "license": "MIT",
+        "license_expression": null,
+        "license_files": null,
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "0rss",
+        "package_url": "https://pypi.org/project/0rss/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/0rss/",
+        "project_urls": {
+            "Homepage": "https://github.com/mindey/0rss"
+        },
+        "provides_extra": null,
+        "release_url": "https://pypi.org/project/0rss/0.0.0/",
+        "requires_dist": null,
+        "requires_python": "",
+        "summary": "Trying something.",
+        "version": "0.0.0",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 7449701,
+    "ownership": {
+        "organization": null,
+        "roles": [
+            {
+                "role": "Owner",
+                "user": "Mindey"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "cbcd8d7e48e54144b49cb05f5ce7924d160730e46a6fa721aee2d30b7deccea2",
+                "md5": "12b1a1182c03ce8d4b25d566760f7b40",
+                "sha256": "31d7b92962c72adfb419f6bf0ea9c325597d314f582d41d0ccdac653f3d6ec62"
+            },
+            "downloads": -1,
+            "filename": "0rss-0.0.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "12b1a1182c03ce8d4b25d566760f7b40",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 1068,
+            "upload_time": "2020-06-10T13:16:01",
+            "upload_time_iso_8601": "2020-06-10T13:16:01.609499Z",
+            "url": "https://files.pythonhosted.org/packages/cb/cd/8d7e48e54144b49cb05f5ce7924d160730e46a6fa721aee2d30b7deccea2/0rss-0.0.0.tar.gz",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}

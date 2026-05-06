@@ -1,0 +1,74 @@
+{
+    "info": {
+        "author": "Mindey",
+        "author_email": "~@mindey.com",
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "= \u30cf\u30ed\u30fc\u30fb\u30bc\u30ed =\n\n== \u4f7f\u3044\u65b9 ==\n`pip install 0rss`\n\nThen, simply use the command periodically:\n\n`0rss https://0oo.li/feed/en`\n\nThis will save data periodically, to:\n\n`~/.metadrive/data/0rss-0oo.li:default/Post`\n\n== \u591a\u6e90\u7528\u6cd5 ==\n\nIf you want to seprate different sessions and sources, just use name param:\n\n`0rss https://0oo.li/feed/en --name mindey@example.com`\n\nThis will save to:\n`~/.metadrive/data/0rss-0oo.li:mindey@example.com/Post`\n\nThe `--name` value can be arbitray filesystem-compatible filename sub-string, so, you can use it to separate data by accounts, languages, or other features.\n\n**NOTE**: Corresponding auth and session data will be stored in `~/.metadrive/sessions` folder.\n",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "dynamic": null,
+        "home_page": "https://github.com/mindey/0rss",
+        "keywords": "",
+        "license": "MIT",
+        "license_expression": null,
+        "license_files": null,
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "0rss",
+        "package_url": "https://pypi.org/project/0rss/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/0rss/",
+        "project_urls": {
+            "Homepage": "https://github.com/mindey/0rss"
+        },
+        "provides_extra": null,
+        "release_url": "https://pypi.org/project/0rss/1.0.0/",
+        "requires_dist": null,
+        "requires_python": "",
+        "summary": "Trying something.",
+        "version": "1.0.0",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 7449701,
+    "ownership": {
+        "organization": null,
+        "roles": [
+            {
+                "role": "Owner",
+                "user": "Mindey"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "9d82b84e334106464835202ee99e7ca2e2a87e3d870758fbc721a89a31e534a9",
+                "md5": "1d6a47a56f38ba5556d446cc0d4fc055",
+                "sha256": "d71b336c3434a3d8be90e7b7f8c7d5e4a9ac4f92cfc8af113a235578741b0238"
+            },
+            "downloads": -1,
+            "filename": "0rss-1.0.0.tar.gz",
+            "has_sig": false,
+            "md5_digest": "1d6a47a56f38ba5556d446cc0d4fc055",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 3037,
+            "upload_time": "2020-06-11T01:46:47",
+            "upload_time_iso_8601": "2020-06-11T01:46:47.268296Z",
+            "url": "https://files.pythonhosted.org/packages/9d/82/b84e334106464835202ee99e7ca2e2a87e3d870758fbc721a89a31e534a9/0rss-1.0.0.tar.gz",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}

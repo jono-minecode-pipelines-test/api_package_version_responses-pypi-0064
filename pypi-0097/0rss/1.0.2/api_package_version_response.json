@@ -1,0 +1,74 @@
+{
+    "info": {
+        "author": "Mindey",
+        "author_email": "~@mindey.com",
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "\u30cf\u30ed\u30fc\u30fb\u30bc\u30ed\n============\n\n\u4f7f\u3044\u65b9\n------\n\n`pip install 0rss`\n\nThen, simply use the command periodically:\n\n`0rss https://0oo.li/feed/en`\n\nThis will save data periodically, to:\n\n`~/.metadrive/data/0rss-0oo.li:default/Post`\n\n\u591a\u6e90\u7528\u6cd5\n--------\n\nIf you want to seprate different sessions and sources, just use name param:\n\n`0rss https://0oo.li/feed/en --name mindey@example.com`\n\nThis will save to:\n`~/.metadrive/data/0rss-0oo.li:mindey@example.com/Post`\n\nThe `--name` value can be arbitray filesystem-compatible filename sub-string, so, you can use it to separate data by accounts, languages, or other features.\n\n**NOTE**: Corresponding auth and session data will be stored in `~/.metadrive/sessions` folder.\n\n\u6307\u5b9a\u3057\u305f\u30d5\u30a9\u30eb\u30c0\u30fc\u3078\u4fdd\u5b58\n------------------------\n\nSaving to custom folder simply pass `--path` parameter, like:\n\n`0rss https://hub.baai.ac.cn/rss --name Mindey --path /home/mindey/Desktop/mydata`\n",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "dynamic": null,
+        "home_page": "https://github.com/mindey/0rss",
+        "keywords": "",
+        "license": "MIT",
+        "license_expression": null,
+        "license_files": null,
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "0rss",
+        "package_url": "https://pypi.org/project/0rss/",
+        "platform": "",
+        "project_url": "https://pypi.org/project/0rss/",
+        "project_urls": {
+            "Homepage": "https://github.com/mindey/0rss"
+        },
+        "provides_extra": null,
+        "release_url": "https://pypi.org/project/0rss/1.0.2/",
+        "requires_dist": null,
+        "requires_python": "",
+        "summary": "Simple RSS data saver.",
+        "version": "1.0.2",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 7449701,
+    "ownership": {
+        "organization": null,
+        "roles": [
+            {
+                "role": "Owner",
+                "user": "Mindey"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "7a9913ee29dc05aa17a0aa53dafc6e9f10ab8a6a1338ff218e5fa10c093f6463",
+                "md5": "4b13fcba4dd98e22408625cfa6714edf",
+                "sha256": "cfffc231eb12a6c4a69479466906f20f00c29722d32eb2343bb5d924ae4f9149"
+            },
+            "downloads": -1,
+            "filename": "0rss-1.0.2.tar.gz",
+            "has_sig": false,
+            "md5_digest": "4b13fcba4dd98e22408625cfa6714edf",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 3331,
+            "upload_time": "2020-06-11T04:46:14",
+            "upload_time_iso_8601": "2020-06-11T04:46:14.860058Z",
+            "url": "https://files.pythonhosted.org/packages/7a/99/13ee29dc05aa17a0aa53dafc6e9f10ab8a6a1338ff218e5fa10c093f6463/0rss-1.0.2.tar.gz",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}
